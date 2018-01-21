@@ -1,0 +1,106 @@
+*{ margin:0; padding:0; font-family:calibri, "segoe ui", arial, tahoma, sans-serif; }
+body {
+	background-color : #f8fbf4;
+	background-image : url("Image/images/background2_07.gif");
+	background-image { width:100%; height:100%; }
+	background-repeat : no-repeat;
+	background-position : center top;
+	font-size : 14px;
+	}
+h1,h2,h3,h4,h5,h6{ 
+			font-family:"Times new roman", impact,arial,sans-serif; 
+			font-weight: normal; 
+			}
+#wrapper{ 
+		width:720px; 
+		margin:0 auto; 
+		}
+#header{ 
+		overflow: hidden; 
+		margin-bottom: 20px; 
+		padding:30px 0 
+		}
+#Logo { color : red;}
+#Logo{ 
+	font-family:"Times new roman", impact, sans-serif; 
+	float:left; 
+	font-size:40px; 
+	}
+#Menu{ 
+		float:right; 
+		list-style:none; 
+		margin-top:10px; 
+		} 
+#Menu li{ display:inline }
+#Menu li a{ 
+	padding:5px 10px; 
+	border-right: 1px dashed #aeb59c; 
+	text-decoration:none; color:red; 
+	}
+#Menu li:last-child a{ border-right:none; }
+#Slideshow{ position:relative; }
+#Slideshow img { width:100%; 
+				height:400px;
+				}
+#Slideshow h1{position:absolute; 
+			bottom:20px; 
+			left:20px; 
+			font-weight:normal; 
+			}
+#Slideshow h1 a{ 
+				color:red; 
+				text-decoration:none; 
+				font-family:"Times new roman",impact,sans-serif; 
+				font-weight: normal; 
+				}
+#Langkah{ 
+		overflow:hidden; 
+		background:white; 
+		margin:20px 0; 
+		} 
+#Langkah h2{ padding:10px; }
+#Langkah .kolom{ 
+			width:170px; 
+			height:170px; 
+			margin:10px; 
+			padding:0 30px 0 0; 
+			float:left; 
+			background:url("Image/images/langkah.png"); 
+			right top no- repeat; 
+			} 
+#Langkah .kolom {
+			color : white; 
+			text-decoration:none; 
+			font-family:"Times new roman",impact,sans-serif; 
+			font-weight: normal; 
+			}
+#Langkah .kolom p{
+				color : yellow; 
+				text-decoration:none; 
+				font-family:"Times new roman",impact,sans-serif; 
+				font-weight: normal; 
+				}
+#Langkah .kolom:last-child{background:none;}
+#footer{ 
+	clear:both; 
+	margin:20px 0; 
+	text-align:center;
+	background-color: #f0f0f0; 
+	color:#555555;
+	border-top: 1px dashed #aeb59c;
+	padding : 10px
+	} 
+#footer p{ float:left } 
+#footer-menu{ 
+         float:left;
+		 margin-left:30px; 
+		 list-style:none; 
+		 }  
+#footer-menu li{ 
+			display:inline; 
+			margin-right:20px;
+			} 
+#footer-menu li a{ 
+			color:#777; 
+			text-decoration:none; 
+			}
